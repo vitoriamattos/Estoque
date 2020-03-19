@@ -140,6 +140,7 @@ public class Estoque {
 				consultar();
 				break;
 			case 0:
+				System.out.println("Sistema encerrado.");
 				finalizado = true;
 				break;
 			default:
