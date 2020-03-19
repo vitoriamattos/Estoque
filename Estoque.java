@@ -13,7 +13,6 @@ public class Estoque {
 	static char opcaoMenu;
 	static String produtos;
 	static boolean pararAcao;
-	static int produtoId[] = new int[10];
 	static boolean finalizado = false;
 	static int idProdutoAlvo;
 
@@ -56,7 +55,6 @@ public class Estoque {
 
 				pararAcao = false;
 			} else {
-				produtoId[totalEstoque] = totalEstoque;
 				System.out.println("Nome do produto: ");
 				produtos = sc.next();
 				System.out.println("Valor do produto: ");
