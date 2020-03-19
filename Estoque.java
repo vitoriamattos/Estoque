@@ -85,7 +85,7 @@ public class Estoque {
 		System.out.println("Informe o ID do produto: ");
 		idProdutoAlvo = sc.nextInt();
 
-			int tamanhoString = produtosDescricao.get(idProdutoAlvo).toString().length();
+			int tamanhoString = produtosDescricao.get(idProdutoAlvo - 1).toString().length();
 
 			if (tamanhoString > 0) {
 				totalEstoque = totalEstoque - 1;
