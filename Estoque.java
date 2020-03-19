@@ -85,8 +85,6 @@ public class Estoque {
 		System.out.println("Informe o ID do produto: ");
 		idProdutoAlvo = sc.nextInt();
 
-		for (i = 1; i < produtoId.length;) {
-
 			int tamanhoString = produtosDescricao.get(idProdutoAlvo).toString().length();
 
 			if (tamanhoString > 0) {
